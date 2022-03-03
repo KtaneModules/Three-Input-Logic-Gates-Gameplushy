@@ -27,7 +27,7 @@ public class threeInputLogicGatesScript : ModuleScript {
 	private byte[] innerOperators;
 	private byte centerOperator;
 
-	private static readonly string operatorSymbols = @"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/\+(){}[]<>,;:!?$£€§%*#~^&@°µ☺☻▲▶◀▼♓♒♑♐♏♎♍♌♋♊♉♈☉☽☿♀⊕♁♂♃♄♅♆♇✔✘♣♦♥♠♡♢♤♧♔♕♖♗♘♙♚♛♜♝♞♟½⅓¼αβγδεζηθικλμνξοπρςστυφχψω⊞⊟⊠⊡⊖⊘⊗◧◨◩◪△▷▽◁◢◣◤◥◭◮☮☯☀☁☂☃❄☎✈✉☹❤☢☣⌘☠★☆✦✧✿❀↖↗↘↙↞↟↠↡∑Ω※‽￠㊋㊌㊍㊎㊏±=≠☄∞☸ѼѬѮ◆◇❣₩¥✡✯☜☝☞☟⁂♭☤❖";
+	private static readonly string operatorSymbols = @"∅123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/Π+(){}[]<>,;:!?$£€§%*#~^&@°µ☺☻▲▶◀▼♓♒♑♐♏♎♍♌♋♊♉♈☉☽☿♀⊕♁♂♃♄♅♆♇✔✘♣♦♥♠♡♢♤♧♔♕♖♗♘♙♚♛♜♝♞♟½⅓¼αβγδεζηθικλμνξοπρςστυφχψω⊞⊟⊠⊡⊖⊘⊗◧◨◩◪△▷▽◁◢◣◤◥◭◮☮☯☀☁☂☃❄☎✈✉☹❤☢☣⌘☠★☆✦✧✿❀↖↗↘↙↞↟↠↡∑Ω※‽￠㊋㊌㊍㊎㊏±=≠☄∞☸ѼѬѮ◆◇❣₩¥✡✯☜☝☞☟⁂♭☤❖";
 
 	private byte stageNumber = 0;
 
