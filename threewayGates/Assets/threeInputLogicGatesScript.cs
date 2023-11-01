@@ -27,7 +27,7 @@ public class threeInputLogicGatesScript : ModuleScript {
 	private byte[] innerOperators;
 	private byte centerOperator;
 
-	private static readonly string operatorSymbols = @"∅123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/Π+(){}[]<>,;:!?$£€§%*#~^&@°µ☺☻▲▶◀▼♓♒♑♐♏♎♍♌♋♊♉♈☉☽☿♀⊕♁♂♃♄♅♆♇✔✘♣♦♥♠♡♢♤♧♔♕♖♗♘♙♚♛♜♝♞♟½⅓¼αβγδεζηθικλμνξοπρςστυφχψω⊞⊟⊠⊡⊖⊘⊗◧◨◩◪△▷▽◁◢◣◤◥◭◮☮☯☀☁☂☃❄☎✈✉☹❤☢☣⌘☠★☆✦✧✿❀↖↗↘↙↞↟↠↡∑Ω※‽￠㊋㊌㊍㊎㊏±=≠☄∞☸ѼѬѮ◆◇❣₩¥✡✯☜☝☞☟⁂♭☤❖";
+	private static readonly string operatorSymbols = @"∅123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/Π+(){}[]<>,;:!?$£€§%*#~^&@°¤☺☻▲▶◀▼♓♒♑♐♏♎♍♌♋♊♉♈☉☽☿♀⊕♁♂♃♄♅♆♇✔✘♣♦♥♠♡♢♤♧♔♕♖♗♘♙♚♛♜♝♞♟½⅓¼αβγδεζηθικλμνξοπρςστυφχψω⊞⊟⊠⊡⊖⊘⊗◧◨◩◪△▷▽◁◢◣◤◥◭◮☮☯☀☁☂☃❄☎✈✉☹❤☢☣⌘☠★☆✦✧✿❀↖↗↘↙↞↟↠↡∑Ω※‽￠㊋㊌㊍㊎㊏±=≠☄∞☸ѼѬѮ◆◇❣₩¥✡✯☜☝☞☟⁂♭☤❖";
 
 	private byte stageNumber = 0;
 
@@ -46,7 +46,7 @@ public class threeInputLogicGatesScript : ModuleScript {
 			arrayOfStuff.ForEach(km=>km.Assign(onInteract: ()=>OuterBulbPress(tmp,arrayOfStuff.IndexOf(km)))) ;
 			for(int j = 0; j < 3; j++)
             {
-				outerStands[i][j].textMesh.text = j.ToString() ;
+				outerStands[i][j].textMesh.text = j.ToString();
             }
         }
 		innerOrder = new Tuple<int, int>[3] { new Tuple<int, int>(0, Get<KMBombInfo>().GetBatteryCount()), new Tuple<int, int>(1, Get<KMBombInfo>().GetIndicators().Count()), new Tuple<int, int>(2, Get<KMBombInfo>().GetPortCount()) };

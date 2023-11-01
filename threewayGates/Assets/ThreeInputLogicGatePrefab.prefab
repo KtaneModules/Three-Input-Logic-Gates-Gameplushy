@@ -4370,7 +4370,7 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: fdc5aea9cd77fc84ebf549b81e01bb8b, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
 --- !u!102 &102221338475321390
 TextMesh:
   serializedVersion: 3
@@ -4391,7 +4391,7 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: fdc5aea9cd77fc84ebf549b81e01bb8b, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
 --- !u!102 &102232577178234126
 TextMesh:
   serializedVersion: 3
@@ -4412,7 +4412,7 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: fdc5aea9cd77fc84ebf549b81e01bb8b, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
 --- !u!102 &102329583023839942
 TextMesh:
   serializedVersion: 3
@@ -4433,7 +4433,7 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: fdc5aea9cd77fc84ebf549b81e01bb8b, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
 --- !u!102 &102393655767815084
 TextMesh:
   serializedVersion: 3
@@ -4454,7 +4454,7 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: fdc5aea9cd77fc84ebf549b81e01bb8b, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
 --- !u!102 &102402278654282478
 TextMesh:
   serializedVersion: 3
@@ -4475,7 +4475,7 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: fdc5aea9cd77fc84ebf549b81e01bb8b, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
 --- !u!102 &102437739916482162
 TextMesh:
   serializedVersion: 3
@@ -4496,7 +4496,7 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: fdc5aea9cd77fc84ebf549b81e01bb8b, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
 --- !u!102 &102589910551015194
 TextMesh:
   serializedVersion: 3
@@ -4517,7 +4517,7 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: fdc5aea9cd77fc84ebf549b81e01bb8b, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
 --- !u!102 &102647207098527800
 TextMesh:
   serializedVersion: 3
@@ -4538,7 +4538,7 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: fdc5aea9cd77fc84ebf549b81e01bb8b, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
 --- !u!102 &102886202803494596
 TextMesh:
   serializedVersion: 3
@@ -4559,7 +4559,7 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: fdc5aea9cd77fc84ebf549b81e01bb8b, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
 --- !u!102 &102947921174256156
 TextMesh:
   serializedVersion: 3
@@ -4580,7 +4580,7 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: fdc5aea9cd77fc84ebf549b81e01bb8b, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
 --- !u!102 &102984920236649626
 TextMesh:
   serializedVersion: 3
@@ -4601,7 +4601,7 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: fdc5aea9cd77fc84ebf549b81e01bb8b, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
 --- !u!102 &102995093409610032
 TextMesh:
   serializedVersion: 3
@@ -4622,7 +4622,7 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: fdc5aea9cd77fc84ebf549b81e01bb8b, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
 --- !u!114 &114006045034994260
 MonoBehaviour:
   m_ObjectHideFlags: 1
